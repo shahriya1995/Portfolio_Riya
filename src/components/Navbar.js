@@ -14,6 +14,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
+                    {closeMobileMenu}
                     RIYA SHAH <FaTypo3 />
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
