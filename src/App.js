@@ -21,7 +21,7 @@ function App() {
                 <Route path="#projects" component={Projects} />
                 <Route path="/about" component={About} />
                 <Route path="/project_pages/:name/:id" component={Projects} />
-                <Route path="/contact" exact component={Contact} />
+                <Route path="/contact" component={Contact} />
             </Switch>
             <Footer />
         </Router>
