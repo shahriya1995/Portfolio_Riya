@@ -1,9 +1,9 @@
 export const D_Menu_items = [
-    {
-        title:'React JS',
-        path:'#react_projects',
-        cName:'dropdown-link'
-    },
+    // {
+    //     title:'React JS',
+    //     path:'#react_projects',
+    //     cName:'dropdown-link'
+    // },
     {
         title:'Featured',
         path:'#projects',

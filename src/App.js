@@ -7,6 +7,7 @@ import Projects from "./components/pages/Projects";
 import About from "./components/pages/About";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
                 <Route path="#projects" component={Projects} />
                 <Route path="/about" component={About} />
                 <Route path="/project_pages/:name/:id" component={Projects} />
-
+                <Route path="/contact" exact component={Contact} />
             </Switch>
             <Footer />
         </Router>
