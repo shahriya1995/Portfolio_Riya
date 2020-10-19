@@ -1,9 +1,16 @@
+// import {FaGithubSquare} from "react-icons/fa/index";
+// import {GrHeroku} from "react-icons/gr/index";
+import {CgWebsite} from "react-icons/cg"
+import React from "react";
+
 const Featured_projects_data = [
     {
         id:1,
         src:'../../images/B.png',
         text:'Blockhain Based Decentralized Freelancing Application',
         path:'/services',
+        icons_link :['http://csus-dspace.calstate.edu/bitstream/handle/10211.3/216863/Blockchain%20Based%20Decentralized%20Freelancing%20Application.pdf?sequence=1'],
+        icons :[<CgWebsite />],
         // alt:'Blockchain image'
         // subtitle:"Create a decentralized freelancing application using Blockchain that can make freelancing faster without having any third authority to control the system ",
         p1 :"In digital freelancing, organizations and companies hire potential employees on a contract basis to work on certain projects. Existing freelancing systems are usually centralized. They are implemented through centralized systems based on client-server model. Issues that originate with the use of centralized freelancing systems include high fees for freelancers and their clients, unfair treatment to user accounts, lack of fairness for clients and freelancers, payment delays, compromised trust between freelancers and clients due to involvement of third-party platforms.",
@@ -27,6 +34,8 @@ const Featured_projects_data = [
         src:'../../images/bidops.png',
         text:'Bidops - Online Bid Submission System',
         path:'/services',
+        icons_link :['https://drive.google.com/file/d/1JXz1WA0mRzBJbyyQkufHo-5tNJcw7Hyi/view?usp=sharing'],
+        icons :[<CgWebsite/>],
         subtitle: 'CalPERS Sponsor Project',
         p1:"The project was introduced by a client in CalPERS. Objective is to develop an automated system which will ease the bid submission process. This will help to put a robust system in place which reduces human efforts and have\n" +
             "efficient paperless system.",
@@ -53,6 +62,8 @@ const Featured_projects_data = [
         src:'../../images/Smart_buy.png',
         text:'Smart Buy',
         path:'/services',
+        icons_link :['http://www.ijsrp.org/research-paper-0516/ijsrp-p53102.pdf'],
+        icons :[<CgWebsite/>],
         subtitle: 'Comparison of E-commerce Products using web mining',
         p1:"Web mining is an application data-mining technique used to extract information from web services. E-commerce websites nowadays have become one of the most important sources for buying all kinds of products. Many strategies have been developed by analyzing customer’s behavior so as to attract more business and participation of people. As there are many ecommerce websites available it becomes difficult for users to choose best deal for desired product amongst these websites. .",
         p2:"Comparison of E-commerce products using web mining enables\n" +

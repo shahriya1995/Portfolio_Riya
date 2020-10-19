@@ -36,8 +36,7 @@ function Navbar() {
         <>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/" className="navbar-logo" onClick={toggleHome}>
-                    RIYA SHAH <FaTypo3 />
+                <Link to="/" className="navbar-logo" onClick={toggleHome}> RIYA SHAH <FaTypo3 />
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     {click ? <FaTimes className='fa-bars' /> : <FaBars className='fa-bars' />}

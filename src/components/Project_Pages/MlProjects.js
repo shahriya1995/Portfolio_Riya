@@ -8,16 +8,16 @@ import './ML_Projects.css'
 function MlProjects(props) {
     return (
         <>
-        <header className="projects-hero">
-            <div className="section-title">
+        <header className="mlprojects">
+            <div className="mlprojects__section">
                 <h1>{props.title}</h1>
                 <h3>{props.subtitle}</h3>
 
-                <div className="underline"></div>
-                <div className="art-body" align='center'>
+                <div className="mlprojects__underline"></div>
+                <div className="mlcontainer__body" align='center'>
                     {props.icons_link.map((value,index) => {
                         return (
-                            <a href={value} target="_blank" key={index} rel="noopener noreferrer" >
+                            <a href={value} target="_blank" key={index} rel="noopener noreferrer">
                                 {props.icons[index]}
                             </a>
                         )
@@ -25,15 +25,15 @@ function MlProjects(props) {
                 </div>
             </div>
         </header>
-            <div className="ml_container">
+            <div className="mlcontainer">
                 <div className="article">
-                    <div className="art-head">
+                    <div className="mlcontainer__head">
                         <h3>{props.proj_title}</h3>
                         {/*<h2>article #1</h2>*/}
                     </div>
                     <br/>
-                    <div className="art-body">
-                        <p className="quote">{props.quote}</p>
+                    <div className="mlcontainer__body">
+                        <p className="mlcontainer__quote">{props.quote}</p>
                         <p>{props.p1}</p>
 
                          </div>
@@ -41,14 +41,14 @@ function MlProjects(props) {
                 </div>
                 <hr/>
                     <div className="article">
-                        <div className="art-head">
+                        <div className="mlcontainer__head">
                             <h3>{props.proj_intro}</h3>
 
                         </div>
-                        <div className="art-body">
+                        <div className="mlcontainer__body">
                             <p>{props.prob_intro} </p>
-                            {props.src.map(value => {return(
-                                    <img src={value} alt="output" />
+                            {props.src.map((value,index) => {return(
+                                    <img src={value} alt="output" key={index} />
                                     )}
                                     )
                             }
@@ -56,7 +56,7 @@ function MlProjects(props) {
                     </div>
                     <hr/>
                         <div className="article">
-                            <div className="art-head">
+                            <div className="mlcontainer__head">
                                 <h3>Technologies</h3>
                                 <ul>
                                     {props.li.map((value,index) => {
@@ -67,11 +67,11 @@ function MlProjects(props) {
                         </div>
                         <hr />
                             <div className="article">
-                                <div className="art-head">
+                                <div className="mlcontainer__head">
                                     <h3 style={{color:"#"}}># Link to the project</h3>
 
                                 </div>
-                                <div className="art-body">
+                                <div className="mlcontainer__body">
                                     {props.icons_link.map((value,index) => {
                                         return (
                                             <a href={value} target="_blank" key={index} rel="noopener noreferrer" >

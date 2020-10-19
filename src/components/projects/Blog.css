@@ -19,8 +19,6 @@
         height: 13rem;
         -o-object-fit: cover;
         object-fit: cover;
-        border-top-left-radius: var(--radius);
-        border-top-right-radius: var(--radius);
         display: block;
         width: 100%;
         max-width: 100%;
@@ -30,7 +28,7 @@
 }
 
 .project-container img:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .project-container {
     position: relative;
@@ -51,6 +49,8 @@
     color: var(--clr-primary-1);
     border: 0.375rem solid var(--clr-grey-10);
 }
+
+
 .project-details {
     padding: 2rem 1.5rem;
     background-color: azure;
