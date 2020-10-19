@@ -36,11 +36,11 @@ const ML_Projects_Data = [
     },
     {
         id:3,
-        title:'Image Classifcation',
+        title:'Image Classification',
         subtitle:'Using Tensorflow.js',
         icons_link :['https://github.com/shahriya1995/ImageClassification_UsingTensorflowJS'],
         icons :[<FaGithubSquare size={49}></FaGithubSquare>],
-        proj_title: 'Web Application for Image Classififcation Model with Flask ',
+        proj_title: 'Web Application for Image Classification Model with Flask ',
         quote:'In this project we build a UI for Image Classification using PreTrainedModel MobileNet. We are using Tensorflow.js library to load a model and make prediction using javascript programming. When a user uploads an image in the website the image is transformed into a tensor and we pass that image into the model to make predictions.\n' +
             '\n' +
             'The output will be Predicted class Name and its probability.',
