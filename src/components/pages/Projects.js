@@ -1,8 +1,8 @@
 import React from "react";
 import '../../App.css'
-import Project_pages from "../Project_Pages/Project_pages";
+import ProjectPages from "../Project_Pages/ProjectPages";
 import Featured_projects_data from "../Project_Pages/Featured_projects_data";
-import ML_Projects from "../Project_Pages/ML_Projects";
+import MlProjects from "../Project_Pages/MlProjects";
 import ML_Projects_Data from "../Project_Pages/ML_Projects_Data";
 
 
@@ -14,7 +14,7 @@ function Projects({match}) {
 
             Featured_projects_data.filter(item => item.id === parseInt(id)).map(item => {
                 return (
-                    <Project_pages {...item} key={id} />
+                    <ProjectPages {...item} key={id} />
 
                 )
             })
@@ -28,7 +28,7 @@ function Projects({match}) {
         return (
             ML_Projects_Data.filter(item1 => item1.id === parseInt(id)).map(item1 => {
                 return (
-                    <ML_Projects {...item1} key={item1.id} />
+                    <MlProjects {...item1} key={item1.id} />
 
                 )
             })

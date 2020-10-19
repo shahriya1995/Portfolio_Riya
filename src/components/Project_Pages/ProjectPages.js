@@ -3,7 +3,7 @@ import './Project_pages.css';
 
 
 
-function Project_pages(props) {
+function ProjectPages(props) {
     return(
         <>
                     <section className="blog-template" >
@@ -61,4 +61,4 @@ function Project_pages(props) {
 
 }
 
-export default Project_pages;
+export default ProjectPages;

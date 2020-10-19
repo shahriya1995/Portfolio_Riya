@@ -5,7 +5,7 @@ import './ML_Projects.css'
 // import {Project_Data} from "../projects/Features_projects_list";
 // import BlogItem from "../projects/BlogItem";
 
-function ML_Projects(props) {
+function MlProjects(props) {
     return (
         <>
         <header className="projects-hero">
@@ -17,7 +17,7 @@ function ML_Projects(props) {
                 <div className="art-body" align='center'>
                     {props.icons_link.map((value,index) => {
                         return (
-                            <a href={value} target="_blank" key={index} >
+                            <a href={value} target="_blank" key={index} rel="noopener noreferrer" >
                                 {props.icons[index]}
                             </a>
                         )
@@ -48,7 +48,7 @@ function ML_Projects(props) {
                         <div className="art-body">
                             <p>{props.prob_intro} </p>
                             {props.src.map(value => {return(
-                                    <img src={value} alt="output"/>
+                                    <img src={value} alt="output" />
                                     )}
                                     )
                             }
@@ -74,7 +74,7 @@ function ML_Projects(props) {
                                 <div className="art-body">
                                     {props.icons_link.map((value,index) => {
                                         return (
-                                            <a href={value} target="_blank" key={index} >
+                                            <a href={value} target="_blank" key={index} rel="noopener noreferrer" >
                                                 {props.icons[index]}
                                             </a>
                                         )
@@ -89,4 +89,4 @@ function ML_Projects(props) {
     )
 
 }
-export default ML_Projects
+export default MlProjects
