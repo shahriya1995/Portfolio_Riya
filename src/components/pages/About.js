@@ -17,7 +17,7 @@ function About() {
 
                 </div>
 
-                <a className="btn center-btn" href="/about">RESUME</a>
+                <a className="btn center-btn" href="https://drive.google.com/file/d/1Wh7tvL93U-l11Ae0Psb-eb0AsPvdt-ZF/view?usp=sharing">RESUME</a>
 
 
 
