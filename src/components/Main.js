@@ -13,7 +13,9 @@ function Main() {
                     <h1>i'm riya shah</h1>
                     <h3>Software Developer</h3>
 
-                    <a href="/contact" className="btn hero-btn">hire me</a>
+                    {/*<a href="/contact" className="btn hero-btn">hire me</a>*/}
+                    <a className="btn center-btn" href="https://drive.google.com/file/d/1Wh7tvL93U-l11Ae0Psb-eb0AsPvdt-ZF/view?usp=sharing">RESUME</a>
+
 
                     <br />
                     <br />
