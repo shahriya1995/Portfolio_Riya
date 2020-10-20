@@ -11,9 +11,6 @@ function About() {
             <div className="mlprojects__section">
                 <h1>About Me</h1>
                 {/*<h3>{props.subtitle}</h3>*/}
-
-
-
                 <div className="mlprojects__underline"></div>
                 <a className="btn center-btn" href="https://drive.google.com/file/d/1Wh7tvL93U-l11Ae0Psb-eb0AsPvdt-ZF/view?usp=sharing">RESUME</a>
 
@@ -44,7 +41,7 @@ function About() {
                     <p><b>Masters in Computer Science</b>, California State University Sacramento.</p>
                     <p> Aug 2017 - May 2020</p> <br />
                     <p><b>Bachelor's  in Computer Engineering</b>, University of Pune.</p>
-                    <p> Aug 2017 - May 2020</p>
+                    <p> Aug 2012 - May 2016</p>
                 </div>
 
             </div>
