@@ -15,7 +15,7 @@ function BlogItem(props) {
                 </Link>
             </div>
             <div className="project-details">
-                <h4>{props.text}</h4>
+                <h4> {props.text}</h4>
                 <p>
                     {props.subtitle}
                 </p>

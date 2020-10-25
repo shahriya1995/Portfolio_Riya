@@ -1,13 +1,36 @@
 import React from "react"
-import './Blog.css'
-import BlogItem from "./BlogItem";
+import BlogItem from "./BlogItem"
 import {Project_Data,ML_Data} from "./Features_projects_list";
+import CardItem from "./CardItem";
 
 
 
 const Blog = () => {
     return (
         <>
+            <div className='cards' id="#reactjs">
+                <h2>React JS projects</h2>
+                <div className="underline"></div>
+                <div className='cards__container'>
+                    <div className='cards__wrapper'>
+                        <ul className='cards__items'>
+
+                            <CardItem
+                                title="Amazon Clone"
+                                src='images/dashboard1.png'
+                                text='Full-stack amazon clone using reactjs integrated with firebase'
+                                path='https://github.com/shahriya1995/amazon_clone_reactjs'
+                            />
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+
         <div id='#projects'>
 
             <div className="section" style={{backgroundColor:'#f7f4f3'}}>
@@ -16,8 +39,8 @@ const Blog = () => {
                         <div className="underline"></div>
                     </div>
                 <div className="section-center projects-page-center">
-                    {Project_Data.map(item =>{
-                        return( <BlogItem  {...item}
+                    {Project_Data.map((item,value) =>{
+                        return( <BlogItem  {...item} key={value}
                         />)
                     })}
 
@@ -32,8 +55,8 @@ const Blog = () => {
                     <div className="underline"></div>
                 </div>
                 <div className="section-center projects-page-center">
-                    {ML_Data.map(item =>{
-                        return( <BlogItem {...item}
+                    {ML_Data.map((item,value) =>{
+                        return( <BlogItem {...item} key={value}
                         />)
                     })}
 
