@@ -29,7 +29,7 @@ const ML_Projects_Data = [
         p1:'The Keras Python library makes creating deep learning models fast and easy. The functional API in Keras is a way of creating models that offers a lot more flexibility, including creating more complex models. It specifically allows you to define multiple input or output models as well as models that share layers. More than that, it allows you to define ad hoc acyclic network graphs.',
         prob_intro:'The traditional methods involved use of textual information like area, its neighbourhood, no of bedrooms etc. In this project we propose finding an estimation using categorical, numerical as well as visual (images) dataset. We will make use of keras architecture that accepts multiple inputs and data. We will combine both textual and visual inputs and train a model which has input as mixed data.',
         src:['../../images/house.png','../../images/house-1.png'],
-        li:['Keras Functional API','Convolution Neural Network','Reagression','Neural Networks'],
+        li:['Keras Functional API','Convolution Neural Network','Regression','Neural Networks'],
         proj_intro:'Introduction'
 
 

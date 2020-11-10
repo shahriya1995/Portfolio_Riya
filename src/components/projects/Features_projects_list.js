@@ -60,7 +60,7 @@ const ML_Data = [
         src:'images/house.svg',
         text:'House Price Prediction',
         path:'/services',
-        subtitle:"House market plays an important role in shaping the economy.  In this project we propose finding an estimation using categorical, numerical as well as visual (images) dataset. Implementation is done using Keras Functional API.",
+        subtitle:"House market plays an important role in shaping the economy.  In this project we propose finding an estimation using categorical, numerical as well as visual (images) dataset.",
         p1 : "Laravel",
         p2 :"PHP",
         p3 :"MySQL",

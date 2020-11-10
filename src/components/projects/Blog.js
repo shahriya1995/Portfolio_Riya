@@ -20,13 +20,27 @@ const Blog = () => {
                                 src='images/dashboard1.png'
                                 text='Full-stack amazon clone using reactjs integrated with firebase'
                                 path='https://github.com/shahriya1995/amazon_clone_reactjs'
+                                weblink="https://clone-6afbf.web.app/"
+                            />
+
+                            <CardItem
+                                title="Spotify Clone"
+                                src='images/Spotify-dashboard.png'
+                                text='Spotify clone using ReactJS integrated with spotify-web-api'
+                                path='https://github.com/shahriya1995/spotify-clone'
                             />
 
 
                         </ul>
 
                     </div>
+
+
                 </div>
+
+
+
+
             </div>
 
 
