@@ -25,7 +25,7 @@ function About() {
                 </div>
                 <div className="mlcontainer__body">
                     <p className="mlcontainer__quote"></p>
-                    <p>I am Software developer based in California, USA. I Graduated with a Master's degree in Computer Science from California State University-Sacramento. My interests includes software design and development, web development, artificial intelligence and machine learning.</p>
+                    <p>I am a Software developer based in California, USA. I Graduated with a Master's degree in Computer Science from California State University-Sacramento. I have 3+ years of hands-on experience designing, developing, and implementing full-stack applications and solutions using a range of technologies and programming languages. My interests include software design and development, web development, artificial intelligence, and machine learning. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full Stack Developer.</p>
 
                 </div>
 
