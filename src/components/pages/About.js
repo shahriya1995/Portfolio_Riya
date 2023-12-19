@@ -12,7 +12,7 @@ function About() {
                 <h1>About Me</h1>
                 {/*<h3>{props.subtitle}</h3>*/}
                 <div className="mlprojects__underline"></div>
-                <a className="btn center-btn" href="https://drive.google.com/file/d/18w4R2lbfirjLtk3oIDNSB3iA89_1A0dk/view?usp=sharing">RESUME</a>
+                <a className="btn center-btn" href="https://drive.google.com/file/d/1c8l1ejVGeDSFQS0yJeiZk5qYEtvpAMm4/view?usp=sharing">RESUME</a>
 
             </div>
         </header>
