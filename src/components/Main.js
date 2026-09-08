@@ -13,7 +13,7 @@ function Main() {
                     <h1>i'm riya shah</h1>
                     <h3>Software Developer</h3>
                     {/*<a href="/contact" className="btn hero-btn">hire me</a>*/}
-                    <a className="btn center-btn" href="https://drive.google.com/file/d/1c8l1ejVGeDSFQS0yJeiZk5qYEtvpAMm4/view?usp=sharing">RESUME</a>
+                    <a className="btn center-btn" href="https://drive.google.com/file/d/1pob82xHRTxzr-oENq6wQAE6aFdInkXQ4/view?usp=sharing">RESUME</a>
 
                     <br />
                     <br />
